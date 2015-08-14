@@ -19,8 +19,29 @@ $.fn.extend({ShakeBorder: function(opciones) {
 						shakecode=shakecode+"."+theClassShake+":hover,."+theClassShake+":focus,."+theClassShake+":hover,."+theClassShake+":focus {-webkit-animation-name: 'spaceboots';-webkit-animation-duration: 0.8s;-webkit-transform-origin:50% 50%;-webkit-animation-iteration-count: infinite;	-webkit-animation-timing-function: linear;}";
 						shakecode=shakecode+'.'+theClassShake+' {display:block;	position:relative;}';
 						shakecode=shakecode+'.'+theClassShake+'.inline {display:inline-block;}</style>';
-						$(ShakeBorder).before(shakecode);
-					}
+						
+						
+						shakecode ='<style>.'+theClassShake+' {display:block;position:relative;}';
+						shakecode=shakecode+'.'+theClassShake+':hover {-webkit-animation-name: shakeEffect;';
+						shakecode=shakecode+'-moz-animation-name: shakeEffect;';
+						shakecode=shakecode+'animation-name: shakeEffect;';
+						shakecode=shakecode+'-webkit-animation-duration: 0.8s;';
+						shakecode=shakecode+'-moz-animation-duration: 0.8s;'
+						shakecode=shakecode+'animation-duration: 0.8s;';
+						shakecode=shakecode+'-webkit-transform-origin:50% 50%;';
+						shakecode=shakecode+'-moz-transform-origin:50% 50%;';
+			shakecode=shakecode+'transform-origin:50% 50%;';
+			shakecode=shakecode+'-webkit-animation-iteration-count: infinite;';
+			shakecode=shakecode+'-moz-animation-iteration-count: infinite;';
+			shakecode=shakecode+'animation-iteration-count: infinite;';
+			shakecode=shakecode+'-webkit-animation-timing-function: linear;';
+			shakecode=shakecode+'-moz-animation-timing-function: linear;';
+			shakecode=shakecode+'animation-timing-function: linear;';
+			shakecode=shakecode+'}';
+			
+shakecode=shakecode+theClassShake+'</style>';						
+			$(ShakeBorder).before(shakecode);					
+			}
 				if(opciones.border){
 						shakecode='';
 						shakecode=shakecode+"<style>."+theClassShake+":hover img{opacity:1;filter: alpha(opacity = 100);}";
