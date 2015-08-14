@@ -1,0 +1,22 @@
+.HoverShakeImage{text-align: center;position:relative;width:120px;height:120px;border-radius:100px;float:left;margin:40px 30px;}
+.HoverShakeImage img{position:absolute;left:0;top:0;width:103px;height:104px;z-index:5;	opacity:0.5;filter: alpha(opacity = 50);border-radius:100px;-moz-border-radius:100px;-webkit-border-radius:100px;box-shadow:0 0 5px #000;transition:opacity 0.7s ease-out 0.3s;-moz-transition: 
+		opacity 0.7s ease-out 0.3s;-webkit-transition: 	opacity 0.7s ease-out 0.3s;}
+.HoverShakeImage figcaption{	position:absolute;	left:0;	top:120%;	width:120px;	color:#004E87;	text-shadow:-1px -1px 0 #fff;z-index:4;}
+.HoverShakeImage .crclu{	position:absolute;	border-radius:100px;	-moz-border-radius:100px;	-webkit-border-radius:100px;}
+.HoverShakeImage .Ot1{	top:-8px;left:-8px;	width:120px;height:120px;z-index:2;border:8px solid;
+	border-color:#DEEBFC;box-shadow:0 0 3px #AFD3FF;-moz-box-shadow:0 0 3px #AFD3FF;
+	-webkit-box-shadow:0 0 3px #AFD3FF;	background: #ffffff;background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #e2efff 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#e2efff));
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#e2efff 100%);
+	background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#e2efff 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#e2efff 100%);
+	background: radial-gradient(center, ellipse cover, #ffffff 0%,#e2efff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2efff',GradientType=1 );
+	transition:	box-shadow 1s ease-out,border-color 1s;
+	-moz-transition: -moz-box-shadow 1s ease-out,border-color 1s;
+	-webkit-transition: -webkit-box-shadow 1s ease-out,border-color 1s;
+}
+.HoverShakeImage .outer2{	top:-18px;left:-18px;width:136px;height:136px;z-index:1;border:10px solid;border-color: #9BC8FF;box-shadow:0 0 3px #8EB9FF;-moz-box-shadow:0 0 3px #8EB9FF;
+	-webkit-box-shadow:0 0 3px #8EB9FF;opacity:0;filter: alpha(opacity = 0);transition:	opacity 0.7s ease-out 0.3s,	box-shadow 0.7s ease-out 0.3s;-moz-transition: 
+		opacity 0.7s ease-out 0.3s,	-moz-box-shadow 0.7s ease-out 0.3s;-webkit-transition:opacity 0.7s ease-out 0.3s,-webkit-box-shadow 0.7s ease-out 0.3s;}
+
