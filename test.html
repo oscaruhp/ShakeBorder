@@ -1,12 +1,9 @@
-<style>
-img ~ .content {
-  display:none;
-}
-
-img:hover ~ .content {
-  display:block;
-}
-</style>
-
-<img src="/awesome.png">
-<div class="content">This is an awesome picture of me</div>
+<script src="modernizr.min.js"></script> 
+  <script>
+  if(Modernizr.touch){
+        alert("true");
+    } else {
+        alert("false");
+    }  
+  </script>
+  
