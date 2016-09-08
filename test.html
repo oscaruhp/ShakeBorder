@@ -1,4 +1,12 @@
-<script type="text/javascript">
-    var is_touch_device = 'ontouchstart' in document.documentElement;
-    if(is_touch_device) alert("touch is enabled!");
-</script>
+<style>
+img ~ .content {
+  display:none;
+}
+
+img:hover ~ .content {
+  display:block;
+}
+</style>
+
+<img src="/awesome.png">
+<div class="content">This is an awesome picture of me</div>
